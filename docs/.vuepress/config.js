@@ -3,14 +3,14 @@ module.exports = {
     description: '爱生活，爱自由',
     themeConfig: {
         sidebarDepth: 2,
-        lastUpdated: '更新时间',
+        lastUpdated: '最后更新时间',
         logo: '/assets/img/logo.png',
         markdown: {
             lineNumbers: true
         },
         nav: [
-            { text: '首页', link: '/' },
-            { text: '关于', link: '/guide/' },
+            {text: '首页', link: '/'},
+            {text: '关于', link: '/guide/'},
             {
                 text: '了解更多',
                 items: [
