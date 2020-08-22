@@ -10,17 +10,20 @@ module.exports = {
         },
         nav: [
             {text: '首页', link: '/'},
-            {text: '关于', link: '/guide/'},
+            {text: '关于', link: '/about/'},
             {
                 text: '了解更多',
                 items: [
-                    { text: 'Api', items: [
-                            { text: 'CLI', link: '/guide/' },
-                            { text: 'Node', link: '/guide/' },
-                        ] },
-                    { text: '开发指南', items: [
-                            { text: '本地开发', link: '/guide/' },
-                            { text: '设计理念', link: '/guide/' },
+                    {
+                        text: 'Api', items: [
+                            {text: 'CLI', link: '/guide/'},
+                            {text: 'Node', link: '/guide/'},
+                        ]
+                    },
+                    {
+                        text: '开发指南', items: [
+                            {text: '本地开发', link: '/guide/'},
+                            {text: '设计理念', link: '/guide/'},
                             { text: 'FAQ', link: '/guide/' },
                             { text: '术语', link: '/guide/' },
                         ] },
