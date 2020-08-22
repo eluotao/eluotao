@@ -1,9 +1,18 @@
 module.exports = {
     title: '个人文档',
     description: '爱生活，爱自由',
+    // plugins: [
+    //     ['@vuepress/last-updated', {
+    //         transformer: timestamp => {
+    //             date = new  Date(timestamp).toISOString()
+    //
+    //             return date
+    //         }
+    //     }]
+    // ],
     themeConfig: {
         sidebarDepth: 2,
-        lastUpdated: '最后更新时间',
+        lastUpdated: '上次更新',
         logo: '/assets/img/logo.png',
         markdown: {
             lineNumbers: true
