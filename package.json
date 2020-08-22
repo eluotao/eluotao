@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "Docs.feeluo.com",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://e.coding.net/eluotao/vuepress-feeluo/vuepress-feeluo.git"
+  },
+  "author": "Luotao",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
