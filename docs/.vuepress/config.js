@@ -2,7 +2,7 @@ module.exports = {
     title: '个人文档',
     description: '爱生活，爱自由',
     themeConfig: {
-        lastUpdated: '最后更新时间',
+        lastUpdated: '更新时间',
         logo: '/assets/img/logo.png',
         sidebarDepth: 2,
         nav: [
