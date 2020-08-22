@@ -3,7 +3,7 @@ const moment = require('moment');
 module.exports = {
     title: 'Feeluo Docs',
     description: '多记，多看，才不能忘记！',
-    dest: './dist',
+    dest: './dist', // 输出 dist 静态资源 到根目录
     plugins: [
         [
             '@vuepress/last-updated',
