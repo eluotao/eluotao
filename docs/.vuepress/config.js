@@ -1,15 +1,21 @@
+const moment = require('moment');
+
 module.exports = {
-    title: '个人文档',
-    description: '爱生活，爱自由',
-    // plugins: [
-    //     ['@vuepress/last-updated', {
-    //         transformer: timestamp => {
-    //             date = new  Date(timestamp).toISOString()
-    //
-    //             return date
-    //         }
-    //     }]
-    // ],
+    title: 'Feeluo Docs',
+    description: '多记，多看，才不能忘记！',
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp, lang) => {
+                    // 不要忘了安装 moment
+                    const moment = require('moment')
+                    moment.locale('zh-CN')
+                    return moment(timestamp).format('YYYY-MM-DD HH:mm:ss') + ' ' + moment(timestamp).format('a')
+                }
+            }
+        ]
+    ],
     themeConfig: {
         sidebarDepth: 2,
         lastUpdated: '上次更新',
