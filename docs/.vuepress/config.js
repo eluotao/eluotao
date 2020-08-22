@@ -2,9 +2,12 @@ module.exports = {
     title: '个人文档',
     description: '爱生活，爱自由',
     themeConfig: {
+        sidebarDepth: 2,
         lastUpdated: '更新时间',
         logo: '/assets/img/logo.png',
-        sidebarDepth: 2,
+        markdown: {
+            lineNumbers: true
+        },
         nav: [
             { text: '首页', link: '/' },
             { text: '关于', link: '/guide/' },
