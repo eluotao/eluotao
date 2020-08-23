@@ -1,6 +1,6 @@
 ---
 home: true
-#heroImage: /assets/img/logo.png
+#heroImage: /favicon.ico
 #bgImage: 'https://cdn.jsdelivr.net/gh/ty-peng/pic-bed/img/bg.jpg'
 #bgImageStyle: {height: '450px'}
 heroImageStyle: {
