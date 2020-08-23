@@ -19,9 +19,19 @@ module.exports = {
             }
         ]
     ],
+    markdown: {
+        // markdown-it-anchor 的选项
+        anchor: {permalink: false},
+        // markdown-it-toc 的选项
+        toc: {includeLevel: [1, 2]},
+        extendMarkdown: md => {
+            // 使用更多的 markdown-it 插件!
+            md.use(require('markdown-it'))
+        }
+    },
     themeConfig: {
         huawei: true,
-        type: 'blog',
+        //type: 'blog',
         sidebar: 'auto', //在所有页面中启用自动生成侧栏
         authorAvatar: '/assets/img/avatar.png', // 头像
         author: 'feeluo',
@@ -47,29 +57,32 @@ module.exports = {
         nav: [
             {text: '首页', link: '/', icon: 'reco-home'},
             {text: '归档', link: '/timeline/', icon: 'reco-date'},
-            // {text: '关于', link: '/about/'},
-            // {
-            //     text: '了解更多',
-            //     items: [
-            //         {
-            //             text: 'Api', items: [
-            //                 {text: 'CLI', link: '/guide/'},
-            //                 {text: 'Node', link: '/guide/'},
-            //             ]
-            //         },
-            //         {
-            //             text: '开发指南', items: [
-            //                 {text: '本地开发', link: '/guide/'},
-            //                 {text: '设计理念', link: '/guide/'},
-            //                 { text: 'FAQ', link: '/guide/' },
-            //                 { text: '术语', link: '/guide/' },
-            //             ] },
-            //         { text: '其他', items: [
-            //                 { text: '从 0.x 迁移', link: '/guide/' },
-            //                 { text: 'Changelog ', link: '/guide/', target:'_blank'},
-            //             ] }
-            //     ]
-            // },
+            {text: '关于', link: '/about/'},
+            {
+                text: '了解更多',
+                items: [
+                    {
+                        text: 'Api', items: [
+                            {text: 'CLI', link: '/guide/'},
+                            {text: 'Node', link: '/guide/'},
+                        ]
+                    },
+                    {
+                        text: '开发指南', items: [
+                            {text: '本地开发', link: '/guide/'},
+                            {text: '设计理念', link: '/guide/'},
+                            {text: 'FAQ', link: '/guide/'},
+                            {text: '术语', link: '/guide/'},
+                        ]
+                    },
+                    {
+                        text: '其他', items: [
+                            {text: '从 0.x 迁移', link: '/guide/'},
+                            {text: 'Changelog ', link: '/guide/', target: '_blank'},
+                        ]
+                    }
+                ]
+            },
             {text: 'Github', link: 'https://github.com/eluotao', target: '_blank', icon: 'reco-github'},
         ],
         // 友链
