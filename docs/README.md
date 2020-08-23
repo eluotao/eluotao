@@ -1,8 +1,17 @@
 ---
 home: true
-heroImage: /assets/img/logo.png
-heroText: Hero 标题
-tagline: Hero 副标题
+#heroImage: /assets/img/logo.png
+#bgImage: 'https://cdn.jsdelivr.net/gh/ty-peng/pic-bed/img/bg.jpg'
+#bgImageStyle: {height: '450px'}
+heroImageStyle: {
+  maxHeight: '200px',
+  display: block,
+  margin: '6rem auto 1.5rem',
+  borderRadius: '50%',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
+}
+heroText: Feeluo Docs
+tagline: 记录生活，分享感动
 actionText: 快速上手 →
 actionLink: /about/
 features:
