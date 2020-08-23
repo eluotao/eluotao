@@ -37,11 +37,14 @@ module.exports = {
         author: 'feeluo',
         sidebarDepth: 2, // 只显示 2 级标题以上
         lastUpdated: '上次更新', // 文章右下角的上次更新时间
-        logo: '/favicon.ico', // 网站 左上角 logo
+        logo: '/icons/favicon.ico', // 网站 左上角 logo
         noFoundPageByTencent: false, // 腾讯 404 公益
         markdown: {
             lineNumbers: true // 显示代码行号
         },
+        head: [
+            ['link', {rel: 'shortcut icon', href: '/icons/favicon.ico'}]
+        ],
         // 博客配置
         blogConfig: {
             category: {
