@@ -31,7 +31,7 @@ module.exports = {
     },
     themeConfig: {
         huawei: true,
-        //type: 'blog',
+        type: 'blog',
         sidebar: 'auto', //在所有页面中启用自动生成侧栏
         authorAvatar: '/assets/img/avatar.png', // 头像
         author: 'feeluo',
