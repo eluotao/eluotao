@@ -43,7 +43,7 @@ module.exports = {
             lineNumbers: true // 显示代码行号
         },
         head: [
-            ['link', {rel: 'shortcut icon', href: '/icons/favicon.ico'}]
+            ['link', {rel: 'icon', href: '/icons/favicon.ico'}]
         ],
         // 博客配置
         blogConfig: {
