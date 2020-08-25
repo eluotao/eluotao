@@ -20,4 +20,4 @@ publish: true
 
 # 效果
 
-<img src="//https://cdn.jsdelivr.net/gh/eluotao/static@master/ico/docsfeeluocom.ico"></a>
+<img src="//cdn.jsdelivr.net/gh/eluotao/static@master/ico/docsfeeluocom.ico"></a>
