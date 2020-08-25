@@ -17,3 +17,7 @@ publish: true
 
 <img src="//www.demo.com/images/logo.jpg"></a>
 ```
+
+# 效果
+
+<img src="//https://cdn.jsdelivr.net/gh/eluotao/static@master/ico/docsfeeluocom.ico"></a>
