@@ -1,6 +1,6 @@
 ---
 title: git 简易的命令行入门教程
-date: 2020-08-23 16:35:58
+date: 2020-08-23
 sidebar: 'auto'
 categories:
  - 后端

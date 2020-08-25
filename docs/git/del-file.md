@@ -1,6 +1,6 @@
 ---
 title: git 删除远程已经推送过的文件或者文件夹
-date: 2020-08-23 16:35:58
+date: 2020-08-23
 sidebar: 'auto'
 categories:
  - 后端
