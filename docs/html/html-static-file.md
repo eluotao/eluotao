@@ -21,3 +21,10 @@ publish: true
 # 效果
 
 <img src="//cdn.jsdelivr.net/gh/eluotao/static@master/ico/docsfeeluocom.ico"></a>
+
+# 查看
+
+![效果](https://cdn.jsdelivr.net/gh/eluotao/static@master/pic/ndfzGs.png)
+ 
+## 打开图片地址
+![结果](https://cdn.jsdelivr.net/gh/eluotao/static@master/pic/fcMwK9.png)
