@@ -9,6 +9,7 @@ tags:
  - requests
  - file
 publish: true
+sticky: 1
 ---
 
 ## Python 文件下载
