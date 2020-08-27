@@ -9,7 +9,6 @@ tags:
  - requests
  - file
 publish: true
-sticky: 1
 ---
 
 ## Python 文件下载
@@ -18,7 +17,7 @@ sticky: 1
 内容下载
 :::
 
-**代码**
+**`代码`**
 ```python
 # coding: UTF-8
 import requests
@@ -32,7 +31,7 @@ print len(r.content)
 保存文件
 :::
 
-**代码**
+**`代码`**
 ```python
 # coding: UTF-8
 import requests
